@@ -29,5 +29,25 @@
 	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject/zippedExtLibs/webuiplaybackextension-windows-jpm.zip"/>
 	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject/zippedExtLibs/x64_geckodriver.zip"/>
 	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject/zippedExtLibs/x64_IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/RPTKHelpers.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/mac_msedgedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/linux_msedgedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/msedgedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/linux_operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/mac_operadriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/IEDriverServer.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/linux_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/linux_x64_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/linux_x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/mac_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/mac_arm64_chromedriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/mac_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/webuiplaybackextension-linux-jpm.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/webuiplaybackextension-windows-jpm.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/x64_geckodriver.zip"/>
+	<classpathentry kind="lib" path="C:/Users/karthick_ba/HCL/devopstest/GITSampleProject1/zippedExtLibs/x64_IEDriverServer.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
