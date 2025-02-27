@@ -1,0 +1,79 @@
+name: UITestProject3
+version: 2
+projectReferences: 
+resources: 
+  - name: .classpath
+    type: com.ibm.rational.test.lt.classpath
+    dependencies: 
+      - path: /UITestProject3/src
+        type: javaClasspath
+  - name: 'Compound Tests'
+    resources: 
+  - name: Datasets
+    resources: 
+  - name: 'JMeter Tests'
+    resources: 
+  - name: Locations
+    resources: 
+  - name: Results
+    resources: 
+      - name: WebUItest3_1740630059735.stats
+        type: com.ibm.rational.test.lt.stats.session
+        properties: 
+          startTime: 1740630059735
+          tags: 
+          testId: A1EFF4C2173AD8A0D669E56466376662
+          testName: WebUItest3
+        dependencies: 
+          - path: /UITestProject3/Results/WebUItest3_1740630059735.xmoebreport
+            type: statsSessionAsset
+          - path: /UITestProject3/Results/WebUItest3_1740630059735_orch!system.mstats
+            type: statsSessionStore
+          - path: /UITestProject3/Results/WebUItest3_1740630059735_orch!system.rstats
+            type: statsSessionStore
+          - path: /UITestProject3/Results/WebUItest3_1740630059735_perf!localhost.mstats
+            type: statsSessionStore
+          - path: /UITestProject3/Results/WebUItest3_1740630059735_perf!localhost.rstats
+            type: statsSessionStore
+          - path: /UITestProject3/Results/WebUItest3_1740630061189.executiondlr
+            type: statsSessionAsset
+          - path: /UITestProject3/Tests/WebUItest3.testsuite
+            type: statsSessionTest
+      - name: WebUItest3_1740630059735.xmoebreport
+      - name: WebUItest3_1740630059735_orch!system.mstats
+      - name: WebUItest3_1740630059735_orch!system.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: WebUItest3_1740630059735_perf!localhost.mstats
+      - name: WebUItest3_1740630059735_perf!localhost.rstats
+        type: com.ibm.rational.test.lt.stats.raw
+      - name: WebUItest3_1740630061189.executiondlr
+  - name: Schedules
+    resources: 
+  - name: Tests
+    resources: 
+      - name: WebUItest3.recdata
+      - name: WebUItest3.recsession
+        type: com.ibm.rational.test.lt.recsession
+        dependencies: 
+          - path: /UITestProject3/Tests/WebUItest3.recdata
+            type: recsessionRecdata
+      - name: WebUItest3.testsuite
+        type: com.ibm.rational.test.lt.test
+        version: 11.0.4.0
+        properties: 
+          features: 'com.ibm.rational.test.lt.feature.lt,com.ibm.rational.test.lt.feature.mobileweb'
+          type: com.ibm.rational.test.lt.lttest
+          uid: A1EFF4C2173AD8A0D669E56466376662
+        dependencies: 
+          - path: /UITestProject3/Tests/WebUItest3.recsession
+            type: testRecsession
+          - path: /UITestProject3/pectran_com_8df.ma
+            type: test#moeb.applicationPackage
+  - name: pectran_com_8df.ma
+    type: moeb.applicationPackage
+  - name: src
+    resources: 
+      - name: test
+        resources: 
+          - name: WebUItest3_Test_A1EFF4C2173AD8A0D669E56466376662.java
+            type: com.ibm.rational.test.lt.generatedCode
